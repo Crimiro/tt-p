@@ -1,0 +1,47 @@
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencias
+node_modules/
+vendor/
+
+# Archivos de compilación
+dist/
+build/
+*.o
+*.so
+*.dylib
+*.exe
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+
+# Archivos de configuración específicos del entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de bases de datos
+*.sqlite
+*.db
+*.sql
+
+# Archivos de empaquetado
+*.jar
+*.war
+*.zip
+*.tar.gz
