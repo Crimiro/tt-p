@@ -1,6 +1,6 @@
 # Prueba
 
-Aplicación web desarrollada con FastAPI que permite a los usuarios subir archivos y escanearlos en busca de virus utilizando la API de VirusTotal.
+Aplicación web desarrollada con FastAPI que permite a los usuarios subir archivos y escanearlos en busca de virus utilizando la API v2 de VirusTotal.
 
 ## Requisitos
 
@@ -12,14 +12,14 @@ Aplicación web desarrollada con FastAPI que permite a los usuarios subir archiv
 1. Clona el repositorio:
 
     ```sh
-    git clone https://github.com/tu-usuario/phinder.git
-    cd phinder
+    git clone https://github.com/Crimiro/tt-p.git
+    cd tt-p
     ```
 
 2. Crea un entorno virtual e instala las dependencias:
 
     ```sh
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
     pip install -r requirements.txt
     ```
@@ -59,7 +59,7 @@ La aplicación estará disponible en `http://127.0.0.1:8000`.
 ## Endpoints
 
 - `GET /`: Devuelve un mensaje de bienvenida.
-- `POST /upload/`: Permite subir un archivo y escanearlo en busca de virus.
+- `POST /upload/`: Permite subir un archivo y escanearlo en busca de virus. **Nota: Solo se permiten archivos PDF, JPEG y PNG de hasta 32 MB.**
 
 ## Licencia
 

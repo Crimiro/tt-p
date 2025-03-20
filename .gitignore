@@ -45,3 +45,5 @@ build/
 *.war
 *.zip
 *.tar.gz
+
+venv/
